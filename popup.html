@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			width: 250px;
+		}
+		button {
+		    margin: 0 auto;
+			overflow: visible;
+			text-transform: none;
+			display: block;
+			box-sizing: border-box;
+			vertical-align: middle;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: .25s ease-in-out;
+			transition-property: color, background-color, border-color;
+		    font-weight: normal !important;
+		    font-size: 14px !important;
+		    color: #222 !important;
+		    cursor: pointer;
+		    background-color: #d4e3e2;
+		    color: #222222;
+		    border: 1px solid #d4e3e2;
+		    padding: 0 30px;
+			line-height: 38px;
+			outline: none;
+		}
+		button:hover {
+		    background-color: #b0ccca;
+		    color: #222222;
+		    border-color: #b0ccca;
+		}
+	</style>
+</head>
+<body>
+	<h3 id="heading">Welcome</h3>
+	<p id="message">Click the button below to generate a Word document with your reserved names.</p>
+	<a id="download_link" href="" title="Download Document" style="display: none;" download>Download Document</a>
+	<br>
+	<button id="processNames">Process Names</button>
+	<script src="popup.js"></script>
+</body>
+</html>
